@@ -10,15 +10,6 @@ but.addEventListener("click", () => {
     fetchHistory();
 })
 
-// let submit = document.getElementById("form-submit");
-// loginForm.addEventListener("submit", () => {
-//   place = county.value;
-//   fetchdata();
-//   fetchHistory();
-// });
-
-
-
 //fetch data
 function fetchdata(){
 fetch(`http://localhost/weather/index.php?place=${place}&all_data`)
