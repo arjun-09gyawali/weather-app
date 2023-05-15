@@ -1,0 +1,60 @@
+<!-- Student Name - Arjun Gyawali
+student ID - 2333960 -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- weather box -->
+    <div class="box">
+        <div class="search">
+                <input type="text" placeholder="Enter the Country, City or Place Name" id="display" spellcheck="false">
+                <button id="search" type="submit"><img src="find.png"></button>
+        </div>
+        <div class="climate">
+            <img src="" class="weather-icon">
+            <p class="weather-condition" id="condi"></p>
+            <h1 class="temprature" id="tem"></h1>
+            <h2 class="city" id="city"></h2>
+            <h3 class="date" id="date"> </h3>
+            <div class="condi">
+                <div class="arjun">
+                    <img src="humidity.png">
+                    <div>
+                        <p class="humidity" id="humidity"></p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="arjun">
+                    <img src="wind.png">
+                    <div>
+                        <p class="wind" id="wind"></p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <table id="table" border="1">
+            <tr class="top-head">
+                <td>Name</td>
+                <td>Date</td>
+                <td>Temperature</td>
+                <td>condition</td>
+                <td>Humidity</td>
+            </tr>
+        </table>
+    </div>
+    <script src="weather.js"></script>
+</body>
+
+</html>
